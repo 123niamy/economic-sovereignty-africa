@@ -42,3 +42,6 @@ footer{background:var(--dark);color:#ccc;text-align:center;padding:26px}
   nav a{margin:10px 0}
   .btn.small{margin:10px 0;text-align:center}
 }
+.logo{display:flex;flex-direction:column;line-height:1.1;letter-spacing:.08em}
+.logo small{font-size:.55rem;font-weight:400;letter-spacing:.04em;color:#ccc}
+@media(max-width:760px){.logo small{display:none}}
